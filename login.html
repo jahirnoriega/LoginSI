@@ -3,7 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style-login.css" />
+    <title>Login</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div id="left-image">
+        <div id="title-image"><h1>STUDY.</h1></div>
+      </div>
+      <div class="login-container">
+        <div class="input">
+          <h2>STUDY.</h2>
+          <h3>Welcome Back</h3>
+          <p id="welcome-message">Login to continue</p>
+          <p>Email Address:</p>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="input-field"
+            placeholder="Enter Email"
+          />
+          <p>Password:</p>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="input-field"
+            placeholder="Enter Password"
+          />
+          <button class="primary-btn">Login</button>
+          <button class="secondary-btn">Create account</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
