@@ -34,3 +34,26 @@
 .logout-btn:hover {
   background-color: #edede9;
 }
+
+.terms {
+  width: 70%;
+  padding: 5rem 10rem;
+  text-align: justify;
+}
+.terms .title {
+  font-weight: bold;
+}
+.sectionSelector {
+  background-color: rgb(212, 212, 212);
+  width: fit-content;
+  padding: 2rem;
+}
+.sectionSelector li {
+  padding: 3px;
+}
+.sectionSelector li a {
+  color: #000;
+}
+.sections .section {
+  font-weight: bold;
+}
